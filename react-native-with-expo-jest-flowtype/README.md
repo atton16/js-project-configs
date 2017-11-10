@@ -24,8 +24,8 @@ brew install yarn
 
 ** NOTE: this required eslint (`$ npm install -g eslint`)
 
-4. Patch `package.json`
+4. Patch `package.json` and `npm install`
 
 5. If your are using VSCode then `.vscode/settings.json` could be useful.
 
-6. . All good
+6. All good.
