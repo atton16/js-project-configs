@@ -2,7 +2,9 @@
 
 1. Install CRNA
 
-** NOTE: CRNA install with **npm@5** is not working as of Oct 10, 2017
+** NOTE: CRNA install with **npm@5 is not working as of Oct 10, 2017**
+** If you are using yarn for CRNA then you will have to use yarn
+** for the entire react project as well. **NPM will just NOT WORK**
 
 ** use `yarn` instead
 ```
