@@ -1,7 +1,9 @@
 {
     "files.associations": {
-        "*.js": "javascriptreact"
+        "*.js": "javascriptreact",
+        "*.jsx": "javascriptreact"
     },
     "jshint.enable": false,
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "javascript.validate.enable": false
 }
