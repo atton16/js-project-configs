@@ -27,6 +27,7 @@
         "plugin:jest/recommended"
     ],
     "rules": {
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "flowtype/no-types-missing-file-annotation": 0
     }
 }
