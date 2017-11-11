@@ -29,6 +29,7 @@
     "rules": {
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
         "flowtype/no-types-missing-file-annotation": 0,
-        "no-console": "off"
+        "no-console": "off",
+        "react/display-name": 0
     }
 }

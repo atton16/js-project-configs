@@ -28,4 +28,4 @@ brew install yarn
 
 5. If your are using VSCode then `.vscode/settings.json` could be useful.
 
-6. All good.
+6. All good. Do not forget to checkout `structured-component` for better component folder structure.
