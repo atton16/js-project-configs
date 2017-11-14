@@ -1,5 +1,5 @@
 --- package.json	2017-11-15 00:35:06.000000000 +0700
-+++ package.new.json	2017-11-15 00:51:12.000000000 +0700
++++ package.json	2017-11-15 00:51:12.000000000 +0700
 @@ -13,7 +13,7 @@
      "eject": "react-native-scripts eject",
      "android": "react-native-scripts android",
