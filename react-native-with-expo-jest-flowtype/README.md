@@ -45,7 +45,12 @@ $ create-react-native-app project-name
 ### Option 1: Aumatic script
 ```bash
 cd project-name
-wget -O - https://raw.githubusercontent.com/atton16/js-project-configs/master/react-native-with-expo-jest-flowtype/project-patcher.sh | bash
+
+# For CRNA
+wget -O - https://raw.githubusercontent.com/atton16/js-project-configs/master/react-native-with-expo-jest-flowtype/project-patcher-crna.sh | bash
+
+# For pure React Native
+wget -O - https://raw.githubusercontent.com/atton16/js-project-configs/master/react-native-with-expo-jest-flowtype/project-patcher-rn.sh | bash
 ```
 
 ### Option 2: Manual

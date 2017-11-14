@@ -8,15 +8,15 @@ yarn add --silent --dev babel-eslint eslint eslint-plugin-flowtype eslint-plugin
 
 # Download package.json patch
 echo "Downloading package.json patch..."
-wget -q https://raw.githubusercontent.com/atton16/js-project-configs/master/react-native-with-expo-jest-flowtype/package.json.patch package.json.patch
+wget -q https://raw.githubusercontent.com/atton16/js-project-configs/master/react-native-with-expo-jest-flowtype/package.json-crna.patch package.json-crna.patch
 
 # Update package.json
 echo "Applying patch..."
-patch package.json package.json.patch
+patch package.json package.json-crna.patch
 
 # Clean up the patch file
 echo "Remove patch file"
-rm package.json.patch
+rm package.json-crna.patch
 
 # Update VSCode workspace settings
 echo "Downloading VSCode workspace settings..."
