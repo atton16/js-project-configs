@@ -9,19 +9,19 @@
 ** for the entire react project as well. **NPM will just NOT WORK**
 
 ** use `yarn` instead
-```
+```bash
 $ npm install -g create-react-native-app
   # or
 $ yarn global add create-react-native-app
 ```
 
 (To install yarn)
-```
+```bash
 brew install yarn
 ```
 
 2. Create Project
-```
+```bash
 $ create-react-native-app project-name
 ```
 
@@ -29,7 +29,10 @@ $ create-react-native-app project-name
 
 ** NOTE: this required eslint (`$ npm install -g eslint`)
 
-4. Patch `package.json` and `npm install`
+4. Install dependencies
+```bash
+$ npm i --save-dev babel-eslint eslint eslint-plugin-flowtype eslint-plugin-jest eslint-plugin-react eslint-plugin-react-native jest-cli
+```
 
 5. If your are using VSCode then `.vscode/settings.json` could be useful.
 
