@@ -26,11 +26,6 @@ export default class HelloWorldApp extends Component {
 
   // UI Render
   render() {
-    return (
-      <View>
-        <Text /><Text /><Text /><Text />
-        <HelloComponent />
-      </View>
-    );
+    return (<HelloComponent />);
   }
 }

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
 import Provider from 'serviceprovider';
 
 import 'rxjs/add/operator/takeWhile';
@@ -26,11 +25,6 @@ export default class HelloWorldApp extends Component {
 
   // UI Render
   render() {
-    return (
-      <View>
-        <Text /><Text /><Text /><Text />
-        <HelloComponent />
-      </View>
-    );
+    return (<HelloComponent />);
   }
 }
