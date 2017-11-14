@@ -15,9 +15,14 @@ $ npm install -g create-react-native-app
 $ yarn global add create-react-native-app
 ```
 
-2. To install yarn
+(To install yarn)
 ```
 brew install yarn
+```
+
+2. Create Project
+```
+$ create-react-native-app project-name
 ```
 
 3. Copy `.eslintrc` to the project
