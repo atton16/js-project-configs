@@ -1,6 +1,6 @@
 # Readme
 
-1. Install CRNA
+## Requirements
 
 ** NOTE: CRNA install with **npm@5 is not working as of Oct 10, 2017**
 
@@ -9,25 +9,40 @@
 ** for the entire react project as well. **NPM will just NOT WORK**
 
 ** use `yarn` instead
+
+1. Install yarn and watchman
 ```bash
-$ npm install -g create-react-native-app
-  # or
+brew install yarn watchman
+```
+
+2. Install CRNA
+```bash
 $ yarn global add create-react-native-app
+# or
+$ npm install -g create-react-native-app
 ```
 
-(To install yarn)
+3. Install eslint
 ```bash
-brew install yarn
+$ npm install -g eslint
 ```
 
-2. Create Project
+## Create Project
 ```bash
 $ create-react-native-app project-name
 ```
 
-3. Copy `.eslintrc` to the project
 
-** NOTE: this required eslint (`$ npm install -g eslint`)
+## Patch the project
+
+### Option 1: Aumatic script
+```bash
+cd project-name
+wget -O - https://raw.githubusercontent.com/atton16/js-project-configs/master/react-native-with-expo-jest-flowtype/project-patcher.sh | bash
+```
+
+### Option 2: Manual
+1. Copy `.eslintrc` to the project
 
 4. Install dependencies
 ```bash
@@ -36,7 +51,7 @@ $ npm i --save-dev babel-eslint eslint eslint-plugin-flowtype eslint-plugin-jest
 
 5. Update the test section of package.json as follows
 ```json
- "test": "node node_modules/jest/bin/jest.js --watch"
+ "test": "node node_modules/jest/bin/jest.js --watchAll"
 ```
 
 6. If your are using VSCode then `.vscode/settings.json` could be useful.
