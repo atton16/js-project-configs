@@ -39,6 +39,6 @@ $ npm i --save-dev babel-eslint eslint eslint-plugin-flowtype eslint-plugin-jest
  "test": "node node_modules/jest/bin/jest.js --watch"
 ```
 
-5. If your are using VSCode then `.vscode/settings.json` could be useful.
+6. If your are using VSCode then `.vscode/settings.json` could be useful.
 
-6. All good. Do not forget to checkout `structured-component` for better component folder structure.
+7. All good. Do not forget to checkout `structured-component` for better component folder structure.
