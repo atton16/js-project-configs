@@ -44,16 +44,16 @@ wget -O - https://raw.githubusercontent.com/atton16/js-project-configs/master/re
 ### Option 2: Manual
 1. Copy `.eslintrc` to the project
 
-4. Install dependencies
+2. Install dependencies
 ```bash
 $ npm i --save-dev babel-eslint eslint eslint-plugin-flowtype eslint-plugin-jest eslint-plugin-react eslint-plugin-react-native jest-cli
 ```
 
-5. Update the test section of package.json as follows
+3. Update the test section of package.json as follows
 ```json
  "test": "node node_modules/jest/bin/jest.js --watchAll"
 ```
 
-6. If your are using VSCode then `.vscode/settings.json` could be useful.
+4. If your are using VSCode then `.vscode/settings.json` could be useful.
 
-7. All good. Do not forget to checkout `structured-component` for better component folder structure.
+5. All good. Do not forget to checkout `structured-component` for better component folder structure.
