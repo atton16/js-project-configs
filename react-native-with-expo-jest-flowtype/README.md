@@ -1,4 +1,11 @@
 # Readme
+This readme will guide you to create React Native project with all the tools needed for linting and testing.
+
+It also show you the best practice to organize your project folders.
+
+Hello World project will be installed by leveraging RxJS and Provider pattern from Angular.
+
+If you are reading this for educational purpose then follow the guide with manual installation.
 
 ## Requirements
 
