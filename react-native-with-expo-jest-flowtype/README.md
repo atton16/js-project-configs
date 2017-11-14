@@ -35,7 +35,7 @@ $ npm i --save-dev babel-eslint eslint eslint-plugin-flowtype eslint-plugin-jest
 ```
 
 5. Update the test section of package.json as follows
-```bash
+```json
  "test": "node node_modules/jest/bin/jest.js --watch"
 ```
 
