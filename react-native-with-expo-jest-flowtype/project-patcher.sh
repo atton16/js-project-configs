@@ -42,4 +42,5 @@ rm App.bak.js
 rm App.test.bak.js
 
 # Start the test
+echo "Running test..."
 ./node_modules/.bin/jest --forceExit
