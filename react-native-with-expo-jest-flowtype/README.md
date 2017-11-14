@@ -34,6 +34,11 @@ $ create-react-native-app project-name
 $ npm i --save-dev babel-eslint eslint eslint-plugin-flowtype eslint-plugin-jest eslint-plugin-react eslint-plugin-react-native jest-cli
 ```
 
+5. Update the test section of package.json as follows
+```bash
+ "test": "node node_modules/jest/bin/jest.js --watch"
+```
+
 5. If your are using VSCode then `.vscode/settings.json` could be useful.
 
 6. All good. Do not forget to checkout `structured-component` for better component folder structure.
