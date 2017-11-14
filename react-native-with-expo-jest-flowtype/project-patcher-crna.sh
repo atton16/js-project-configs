@@ -34,7 +34,7 @@ mv App.test.js App.test.bak.js
 
 # Download and extract hello-project
 echo "Downloading hello project..."
-wget -qO- https://github.com/atton16/js-project-configs/raw/master/react-native-with-expo-jest-flowtype/hello-project.tar.gz | tar xvz
+wget -qO- https://github.com/atton16/js-project-configs/raw/master/react-native-with-expo-jest-flowtype/hello-project-crna.tar.gz | tar xvz
 
 # Delete backup files
 echo "Remove backup files"

@@ -18,16 +18,18 @@ yarn add --silent serviceprovider rxjs
 # Backup old files
 echo "Backing up old files..."
 mv App.js App.bak.js
-mv App.test.js App.test.bak.js
+mv index.js index.bak.js
+mv __test__/App.js __test__/App.bak.js
 
 # Download and extract hello-project
 echo "Downloading hello project..."
-wget -qO- https://github.com/atton16/js-project-configs/raw/master/react-native-with-expo-jest-flowtype/hello-project.tar.gz | tar xvz
+wget -qO- https://github.com/atton16/js-project-configs/raw/master/react-native-with-expo-jest-flowtype/hello-project-rn.tar.gz | tar xvz
 
 # Delete backup files
 echo "Remove backup files"
 rm App.bak.js
-rm App.test.bak.js
+rm index.bak.js
+rm __test__/App.bak.js
 
 # Start the test
 echo "Running test..."
