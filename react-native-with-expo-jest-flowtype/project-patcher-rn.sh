@@ -18,8 +18,6 @@ yarn add --silent serviceprovider rxjs
 # Backup old files
 echo "Backing up old files..."
 mv App.js App.bak.js
-mv index.js index.bak.js
-mv __test__/App.js __test__/App.bak.js
 
 # Download and extract hello-project
 echo "Downloading hello project..."
@@ -28,9 +26,19 @@ wget -qO- https://github.com/atton16/js-project-configs/raw/master/react-native-
 # Delete backup files
 echo "Remove backup files"
 rm App.bak.js
-rm index.bak.js
-rm __test__/App.bak.js
+
+# Download index.js patch
+echo "Downloading index.js patch..."
+wget -q https://raw.githubusercontent.com/atton16/js-project-configs/master/react-native-with-expo-jest-flowtype/index.js-rn.patch index.js-rn.patch
+
+# Update package.json
+echo "Applying patch..."
+patch index.js index.js-rn.patch
+
+# Clean up the patch file
+echo "Remove patch file"
+rm index.js-rn.patch
 
 # Start the test
 echo "Running test..."
-yarn test
+yarn test --forceExit
