@@ -38,7 +38,13 @@ patch index.js index.js-rn.patch
 # Clean up the patch file
 echo "Remove patch file"
 rm index.js-rn.patch
+rm index.js.orig
 
 # Start the test
 echo "Running test..."
 yarn test --forceExit
+
+echo "."
+echo "."
+echo "."
+echo "Done. Enjoy your app!"
